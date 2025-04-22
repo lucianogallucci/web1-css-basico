@@ -1,0 +1,11 @@
+/*comentario de css*/
+header{
+    background-color:  darksalmon;
+}
+/*selector x id*/
+#p3{
+    color: blueviolet;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 100;
+}
