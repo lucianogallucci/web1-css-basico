@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pràctica inicial de css--</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pràctica Inicial de CSS</h1>
+        <h2>Estructura bàsica de CSS</h2>
+    </header>
+    <main>
+        <p>1.1-CSS significa <strong>hoja de estilo en cascada</strong></p>
+        <p>1.2-CSS sirve para estilos de texto muy bàsicos como, <br>por ejemplo:
+            <u>Cambiar el color y el tamaño de los encabezados y los enlaces. <br>Tambièn
+                se puede utilizar para crear un diseño. El programa que se utiliza es un browser.</u>
+        </p>
+        <p>1.3-El CSS es un lenguaje basado en reglas: Cada usuario define las reglas
+            <br>que especifican los grupos de estilos que van a aplicarse a elementos
+            particulares o grupos de elementos de la pàgina web.
+        </p>
+        <p>1.4- Las reglas son un conjunto de propiedades y valores que se aplicarán
+            a una o varias etiquetas según necesitemos. <img src="../assets/img/descarga.jpeg" alt=""></p>
+        <dl>
+            <dt>Anatomia de la regla CSS</dt>
+            <dd><strong>selector</strong>:Selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos ).
+                Para
+                dar estilo a un elemento diferente, solo cambia el selector.</dd>
+            <dd><strong>declaraciòn</strong>: aplica las propiedades que querés dar al elemento seleccionado en el
+                Selector.</dd>
+            <dd><strong>Propiedades</strong>: es lo que te permite dar un estilo a un elemento HTML. En el ejemplo la
+                propiedad es <strong>color </strong>que le dará color a las letras de los párrafos.</dd>
+            <dd><strong>Valor de la propiedad</strong>:Las propiedades deben tener un valor. Cada propiedad tiene
+                valores
+                definidos.</dd>
+        </dl>
+        <p>1.5-El CSS tendrá diferentes tipos de selectores, un selector nos permitirá aplicar estilos a elementos
+            específicos <br>
+            de HTML. De esta forma es posible ser preciso al momento de aplicar diseño a un sitio web.</p>
+        <p>1.6-Selectores</p>
+        <ul>
+            <li><strong>selector universal</strong>:Nos permite aplicar estilos a todos los elementos HTML de un
+                documento y se indica mediante el *.</li>
+            <li><strong>selector por etiquetas</strong>:Aplicamos propiedades CSS a una etiqueta. La misma se identifica
+                sin utilizar <>.</li>
+            <li><strong>Selector descendente</strong>:Con este selector seleccionamos un elemento que está dentro de
+                otro del mismo tipo. Estos seectores
+                siempre están formados por dos o más selectores separados entre si.</li>
+            <li><strong>Selector de clases</strong>:Los selectores de clases comienzan siempre por un . (punto). Los
+                clientes web (navegadores) identifican este punto y lo distinguen del resto de los selectores.</li>
+            <li><strong>Selector de ID</strong>:Este tipo de selector es igual al de clase, aunque lo aplicaremos a un
+                único elemento HTML de nuestra página</li>
+        </ul>
+        <p>1.7-</p>
+        <ol>
+            <li>El navegador carga el HTML (por ejemplo, lo recibe de la red).</li>
+            <li>Convierte el HTML en un DOM (Modelo de objetos del documento). El DOM representa el documento en la
+                memoria del ordenador. Lo explicaremos más detalladamente en la sección siguiente.</li>
+            <li>Entonces, el navegador va a buscar la mayor parte de los recursos vinculados al documento HTML, como las
+                imágenes y los videos incrustados... ¡y también el CSS vinculado! JavaScript aparece un poco más
+                adelante en el proceso, pero no vamos a hablar de ello aún para evitar complicar las cosas.</li>
+            <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de
+                selector. Por ejemplo, elemento, clase, ID, y así sucesivamente. Para cada tipo de selector que
+                encuentre, calcula qué reglas deben aplicarse y a qué nodos en el DOM se les aplica el estilo según
+                corresponda (este paso intermedio se llama árbol de renderización).</li>
+            <li>El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle
+                las reglas.</li>
+            <li>En la pantalla se muestra el aspecto visual de la página (esta etapa se llama pintura).</li>
+        </ol>
+        <p>1.8-Existen 3 formas de vincular css: <br>
+            1-con un atributo style
+            2-con la etiqueta style en la parte head
+            3-un archivo con extensiòn .css
+        </p>
+        <p>1.9-
+
+        </p>
+    </main>
+    <footer>
+        <h3>Luciano Gallucci</h3>
+        <h3>4º1</h3>
+    </footer>
+</body>
+
+</html>
