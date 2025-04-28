@@ -1,0 +1,40 @@
+/*estilos para la pàgina web*/
+body{
+    background-color: rgba(84, 255, 255, 0.644);
+    font-size: 15px;
+}
+h1{
+    color: rgb(255, 128, 23);
+    font: size 29px; large;
+}
+p{
+    color: rgb(216, 59, 255);
+    font-size: 24 large;
+}
+.encabezado {  
+    text-align: center;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+    font-size: 42px;
+}    
+.parrafo {  
+    text-align: justify;  
+    text-transform: capitalize;  
+    font-size: 24px;
+}
+#cuerpo{
+    background-color: blue;
+}
+p a{
+    color: #333;
+    text-decoration:none;
+}
+.header{
+    text-align: center;
+    text-decoration: overline;
+}
+.palabras{
+    color: chartreuse;
+  font: weight 300px;
+}
+    
