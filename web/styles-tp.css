@@ -1,0 +1,21 @@
+/*header*/
+/*selector x etiqueta*/
+header {
+    background: #F5CC00;
+    background: linear-gradient(0deg, rgba(245, 204, 0, 1) 0%, rgba(245, 0, 0, 1) 100%);
+    color: #3d7e48;
+    text-align: center;
+    height: 200px;/* altura por ahora en px=pixeles */
+}
+
+nav ul li {
+    display: inline-block;/*a los elementos de la lista los coloca horizontal*/
+}
+nav ul li a{ /* seleciono las A (anchor-ancla-enlace-link-url-hipervinculo)*/
+    text-decoration: none;/* elimina el subrayado*/
+    color: #3d7e48;/* color a la letra de a*/
+    text-transform: uppercase;/* colocamos el texto de A en mayúscula*/
+    padding: 10px;/*margen del elemento a*/
+    background-color: #f5cc009a;
+    border-radius: 5px;
+}
