@@ -5,17 +5,44 @@ header {
     background: linear-gradient(0deg, rgba(245, 204, 0, 1) 0%, rgba(245, 0, 0, 1) 100%);
     color: #3d7e48;
     text-align: center;
-    height: 200px;/* altura por ahora en px=pixeles */
+    height: 225px;
+    /* altura por ahora en px=pixeles */
 }
 
 nav ul li {
-    display: inline-block;/*a los elementos de la lista los coloca horizontal*/
+    display: inline-block;
+    /*a los elementos de la lista los coloca horizontal*/
 }
-nav ul li a{ /* seleciono las A (anchor-ancla-enlace-link-url-hipervinculo)*/
-    text-decoration: none;/* elimina el subrayado*/
-    color: #3d7e48;/* color a la letra de a*/
-    text-transform: uppercase;/* colocamos el texto de A en mayúscula*/
-    padding: 10px;/*margen del elemento a*/
-    background-color: #f5cc009a;
+
+nav ul li a {
+    /* seleciono las A (anchor-ancla-enlace-link-url-hipervinculo)*/
+    text-decoration: none;
+    /* elimina el subrayado*/
+    color: #ffffff;
+    /* color a la letra de a*/
+    text-transform: uppercase;
+    /* colocamos el texto de A en mayúscula*/
+    padding: 10px;
+    /*margen del elemento a*/
+    background-color: #c75a1b;
     border-radius: 5px;
+}
+
+/*pseudo clases- es un estado especial q se le asigna a un elemento selecionado
+objetivo: es aplicar estilo a elementos en ciertas concdiciones sin necesidad de usar otra clase adicional*/
+/* :hover- el puntero este encima de A */
+nav ul li a:hover {
+    color: antiquewhite;
+    background-color: black;
+}
+
+/* main */
+body {
+background-color: #EBE09D;
+}
+#titulo{
+    color: rgb(255, 252, 63);
+}
+footer div ul li{
+    display: inline-block;
 }
