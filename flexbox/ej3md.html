@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nike</title>
     <style>
-        .container{
+        .productos {
             display: flex;
-            justify-content:center ;
+            justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            width: 100vh;
-            gap: 20px;
         }
-        .filtro{
+    
+        .filtro {
             display: flex;
-            align-items:center;
+            align-items: center;
             justify-content: space-between;
+        }
+        .fila{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .producto{
+            margin: 8px;
+            width: 200px;
+        }
+        p{
+            margin:5px;
         }
     </style>
 </head>
@@ -25,18 +37,60 @@
 <body>
     <div class="filtro">
         <div>
+            <img src="assests/productos/cuadricula.png" alt="" width="10px" height="10px">
             productos
         </div>
         <div>
+            <img src="assests/productos/filtrar.png" alt="" width="10px" height="10px">
             ocultar filtros
         </div>
     </div>
-    <main class="container">
+    <main class="productos">
         <div>
-            <img src="assests/productos/balon-nike-premier-league-replica-2024-25.jpg" alt="" width="100px" height="100px">
+        <div class="fila">
+            <div class="producto">
+                <img src="assests/productos/balon-nike-premier-league-replica-2024-25.jpg" alt="" width="150px" height="150px">
+                <p class="lonuevo">Lo nuevo</p>
+                <p class="nombre">Premier League Academy</p>
+                <p class="descripcion">Pelota de Fútbol unisex</p>
+                <p class="precio">$ 60.000</p> 
+            </div>
+            <div class="producto">
+                <img src="assests/productos/mochila.jpg" alt="" width="150px" height="150px">
+                <p class="lonuevo">Lo nuevo</p>
+                <p class="nombre">Jan</p>
+                <p class="descripcion">Mochila jordan para niños</p>
+                <p class="precio">$ 52.900</p> 
+            </div>
+            <div class="producto">
+                <img src="assests/productos/balon-nike-premier-league-replica-2024-25.jpg" alt="" width="150px" height="150px">
+                <p class="lonuevo">Lo nuevo</p>
+                <p class="nombre">Premier League Flight</p>
+                <p class="descripcion">Pelota de Fútbol unisex</p>
+                <p class="precio">$ 230.999</p> 
+            </div>
         </div>
-        <div>
-
+        <div class="fila">
+            <div class="producto">
+                <img src="assests/productos/images.jpeg" alt="" width="150px" height="150px">
+                <p class="lonuevo">Lo nuevo</p>
+                <p class="nombre">Nike Futsal Pro</p>
+                <p class="descripcion">Pelota de Futsal unisex</p>
+                <p class="precio">$ 84.909</p> 
+            </div>
+            <div class="producto">
+                <img src="assests/productos/gorra.webp" alt="" width="150px" height="150px">
+                <p class="nombre">Nike DriFIT Rise</p>
+                <p class="descripcion">Gorra de moda unisex</p>
+                <p class="precio">$ 51.499</p> 
+            </div>
+            <div class="producto">
+                <img src="assests/productos/vincha.webp" alt="" width="150px" height="150px">
+                <p class="nombre">Nike Fury</p>
+                <p class="descripcion">Vincha de Entrenamiento para mujer</p>
+                <p class="precio">$ 39.999</p> 
+            </div>
+        </div>
         </div>
     </main>
 </body>
