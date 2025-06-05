@@ -75,3 +75,10 @@ a{
     display: flex;
     justify-content: space-around;
 }
+#whatsapp{
+    position:fixed;
+    bottom: 350px;
+    right: 50px;
+    width: 35px;
+    height: 35px;
+}
