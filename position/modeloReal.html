@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo real</title>
+    <style>
+        .producto{
+            position: relative;
+
+        }
+        .imagen{
+            width: 250px;
+            height: 250px;
+        }
+        .descripción{
+            width: 200px;
+        }
+        .corazon{
+            position:absolute;
+            top: 30px;
+            left: 220px;
+        }
+        .corazón{
+            position: relative;
+            bottom: 240px;
+            left: 220px;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+        }
+        .agregar{
+            border-radius: 15px;
+            background-color: #3597ff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <div class="producto">
+            <div class="cartel">El más vendido</div>
+            
+            <div><img src="assets/img/stitch.avif" class="imagen" alt="">
+                <div ><img src="assets/img/corazon.png" class="corazon" alt=""></div>
+            </div>
+            <div><button class="agregar">+agregar</button></div>
+            <div class="precio">Ahora $14.88 <span>$27.00</span></div>
+            <div class="descripción">bot it! edición disney stitch juego, juego dinsney con licencia oficial, edades8+...</div>
+            
+        </div>
+        <div class="producto">
+            <div class="cartel">El más vendido</div>
+            <div><img src="assets/img/figuras.webp" class="imagen" alt="">
+            <div><img src="assets/img/corazon.png"class="corazón" alt=""></div>
+            </div>
+            <div><button class="agregar">+agregar</button></div>
+            <div class="precio">$3.97</div>
+            <div class="descripción">disney stitch figuras coleccionables de stitch, jugetes para edades de 3...</div>
+        </div>
+    </main>
+</body>
+
+</html>

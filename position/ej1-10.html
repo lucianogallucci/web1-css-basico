@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .elemento1 {
+	    position: absolute;
+	    z-index: 1;
+	    color:red;
+    	}
+        .elemento2 {
+     position: absolute;
+        	z-index: 1;
+        	color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        1) la position absolute esta exactamente a la cantidad de px del contenedor padre y la relativa esta
+        a la cantidad de px con una fluctuacion en su cantidad
+        2) la position que se utiliza es static
+        3)z-index
+        4)cuando queres tener un elemento/contenedor fijo en un lugar
+        5)se comporta como "pegajoso" en relación a su contenedor o al área de visualización del navegador.
+        6)position relative
+        7) con top,right,botton y left
+        8)cuando queres superponer elementos sobre otros
+        9) no se llega a entender lo que se quiere mostrar***
+        10)que uno se movera en relación con la ventana del navegador y el otro con el contenedor padre
+        11)al contenedor principal o el documento en su totalidad
+        12) cambiaria el right por un left o agregaria mas valor a right
+    -->
+    <div style="position: relative;">
+        <div class="elemento1">Elemento 1</div>
+        <div class="elemento2">Elemento 2</div>
+    </div>
+    
+</body>
+</html>
