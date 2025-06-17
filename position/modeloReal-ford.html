@@ -5,20 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo Real Ford</title>
     <style>
-
+        .cont-img{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+        img{
+            width: 900px;
+        }
+        .titulo{
+            position: absolute;
+            bottom: 100px;
+            left: 300px;
+            color: white;
+            text-transform:capitalize;
+            font-weight: 400;
+            font-size: 2em;
+        }
+        #a{
+            position: absolute;
+            bottom: 50px;
+            left: 300px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 0px;
+        }
+        #b{
+            display: flex;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 0px;
+        }
+        .primera{
+            position: relative;
+            display: flex;
+        }
+        .box{
+            width: 400px;
+        }
+        .img{
+            width: 400px;
+        }
+        .boton{
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+        }
+        .caracteristicas{
+            display: flex;
+            
+        }
     </style>
 </head>
 <body>
     <main>
-        <section>
+        <section class="container">
             <div class="cont-img"> <!--relative-->
-                <img src="assets/img/1era.avif"class alt="">
-                <div class="titulo"></div><!--absolute-->
-                <div><button><a href="#">explore super duty &#xae;</a></button></div>
+                <img src="assets/img/1era.avif" alt="">
+                <div class="titulo">diesel muscle</div><!--absolute-->
+                <div id="a"><button id="b"><a href="#">explore super duty &#xae;</a></button></div>
             </div>
         </section>
         <section>
-
+            <div class="caracteristicas">
+                <div class="box">
+                    <div><img src="assets/img/2nda.avif" class="img"alt=""></div>
+                    <div class="nombre">hands-free highway driving</div>
+                    <div class="descripcion">Experience the magic of hands-free highway driving on 97% of controlled access highways in
+                     U.S. and Canada.  <sup>107</sup>
+                    </div>
+                    <div ><button class="boton">Explore BlueCruise</button></div>
+                </div>
+                <div class="box">
+                    <div><img src="assets/img/3era.avif"class="img" alt=""></div>
+                    <div class="nombre">ford connected services</div>
+                    <div class="descripcion">Available features you can add-on to your Ford vehicle post-purchase to enrich your owership
+                        experience
+                    </div>
+                    <div ><button class="boton">Explore Connected Services</button></div>
+                </div>
+                <div class="box">
+                    <div><img src="assets/img/4ta.avif"class="img" alt=""></div>
+                    <div class="nombre">complementary mobile service</div>
+                    <div class="descripcion">Our Ford Mobile Service technicians can perform a lot of the same services remotely that we do in the
+                        dealship. Oil and filter changes,brakes, and more
+                    </div>
+                    <div ><button class="boton">Explore Mobile Service</button></div>
+                </div>
+                </div>
         </section>
     </main>
 </body>
