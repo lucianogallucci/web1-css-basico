@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>actividad </title>
+    <style>
+        ul {
+            list-style: none;
+            gap: 15px;
+            padding: 0px;
+            text-align: center;
+        }
+        li {
+            background-color: rgb(240, 175, 218);
+            border-radius: 10px;
+            padding: 5px;
+            gap: 15px;
+            margin: 10px;
+        }
+        .elemento {
+            text-decoration: none;
+            color: rgb(124, 124, 124);
+        }
+        @media screen and (width >= 768px) {
+            ul {
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                font-size: 1.2em;
+            }
+            .box{
+                gap: 10px;
+                display: flex;
+                width: 900px;
+            }
+            .nombre{
+                width: 200px;
+                
+            }
+            .caja1{
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .derecha{
+                background-color: rgb(160, 168, 247);
+                
+            }
+            
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center;
+        }
+        .box {
+            width: 400px;
+            border: solid  rgb(112, 123, 224);
+            border-radius: 15px;
+        }
+        .imagen {
+            width: 100%;
+           
+        }
+        .nombre img{
+            width: 50px;
+            
+        }
+        .nombre{
+            display: flex;
+            align-items: center;
+        }
+        .derecha{
+            background-color: rgb(160, 168, 247);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="elemento">Inicio</a></li>
+            <li><a href="#" class="elemento">produtos</a></li>
+            <li><a href="#" class="elemento">servicios</a></li>
+            <li><a href="#" class="elemento">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="contenedor">
+        <section class="caja1">
+            <div class="box">
+                <div ><img src="assets/img/ktm450exc-f.avif" class="imagen"></div>
+                <div class="derecha">
+                    <div class="nombre"><img src="assets/img/ktm-logo.png" alt=""> 450 EXC-F 2025</div>
+                    <div class="descripcion"> es la enduro definitiva: potencia superior, control
+                        inquebrantable y agilidad extrema para dominar cualquier terreno.
+                    </div>
+                    <div class="precio">US$ 18.900</div>
+                </div>
+            </div>
+            <div class="box">
+                <div ><img src="assets/img/KX450.png" class="imagen"></div> 
+                <div class="derecha">
+                    <div class="nombre"> <img src="assets/img/kawa-logo.png" alt="">KX450 2025</div>
+                    <div class="descripcion"> es la moto de motocross definitiva: potencia, agilidad y
+                    tecnología de punta para dominar cualquier pista y alcanzar el podio.
+                    </div>
+                    <div class="precio">US$17.200</div>
+                </div>
+            </div>
+            <div class="box">
+                <div><img src="assets/img/crf450.avif" class="imagen"></div> 
+                <div class="derecha">
+                    <div class="nombre"><img src="assets/img/honda-logo.png" alt=""> CRF450 2025</div>
+                    <div class="descripcion"> es la moto de motocross definitiva: motor potente, chasis 70% rediseñado para 
+                    precisión superior y electrónica avanzada para un control inigualable en pista.
+                    </div>
+                    <div class="precio">US$ 20.000</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

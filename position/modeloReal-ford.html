@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo Real Ford</title>
     <style>
-        .cont-img{
+        main{
+            font-family: "fordAntena",Arial, Helvetica, sans-serif !important;
+
+        }
+        .container{
             display: flex;
-            position: relative;
             justify-content: center;
+        }
+        .cont-img{
+            position: relative;
         }
         img{
             width: 900px;
         }
         .titulo{
             position: absolute;
-            bottom: 100px;
-            left: 300px;
+            bottom: 136px;
+            left: 46px;
             color: white;
             text-transform:capitalize;
             font-weight: 400;
@@ -24,38 +30,68 @@
         }
         #a{
             position: absolute;
-            bottom: 50px;
-            left: 300px;
+            bottom: 83px;
+            left: 46px;
         }
         a{
             text-decoration: none;
             color: black;
             margin: 0px;
+            text-transform: capitalize;
         }
         #b{
             display: flex;
             border-radius: 20px;
             padding: 10px;
-            margin: 0px;
+            border: 0px;
         }
         .primera{
             position: relative;
             display: flex;
         }
         .box{
-            width: 400px;
+            width: 292px;
         }
         .img{
-            width: 400px;
+            width: 292px;
+            border-radius: 5px;
         }
         .boton{
             border-radius: 20px;
-            background-color: blue;
+            padding: 10px;
+            background-color: rgb(52, 113, 245);
             color: white;
+            border: 0px;
+            font-weight: 600;
         }
         .caracteristicas{
             display: flex;
-            
+            gap: 10px;
+        }
+        .container-sec{
+            background-color: #00142e;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        .nombre{
+            color: white;
+            font-weight:400;
+            font-size: 2em;
+            text-transform: capitalize;
+        }
+        .descripcion{
+            color: white;
+            height: 85px;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+        .detalle{
+            position: absolute;
+            left: 46px;
+            bottom: 33px;
+            color: rgb(189, 189, 189);
         }
     </style>
 </head>
@@ -66,9 +102,10 @@
                 <img src="assets/img/1era.avif" alt="">
                 <div class="titulo">diesel muscle</div><!--absolute-->
                 <div id="a"><button id="b"><a href="#">explore super duty &#xae;</a></button></div>
+                <div class="detalle">Vehicle Details</div>
             </div>
         </section>
-        <section>
+        <section class="container-sec">
             <div class="caracteristicas">
                 <div class="box">
                     <div><img src="assets/img/2nda.avif" class="img"alt=""></div>
